@@ -11,7 +11,12 @@ class Navbar extends Component {
                
             </div>
             <ul>
-                <li><a href=""></a></li>
+                {MenuItems.map((item,index) => {
+                    return(
+                        <li><a className="{items.cName}"></a></li>
+                    )
+              })}
+               
             </ul>
         </nav>
       );
